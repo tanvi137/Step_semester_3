@@ -1,0 +1,42 @@
+package week_4.class_problems;
+
+public class SrmStudent {
+
+    static String collegeName;
+    static String academicYear;
+
+    String studentName;
+
+    static {
+        collegeName = "SRM Institute of Science and Technology";
+        academicYear = "2026-27";
+
+        System.out.println("College info loaded");
+    }
+
+    public SrmStudent(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public void printConfirmation() {
+        System.out.println(
+                "Student record created: " + studentName
+        );
+    }
+
+    public static void main(String[] args) {
+
+        String[] names = {
+                "Ravi",
+                "Meera",
+                "Karthik",
+                "Divya",
+                "Anitha"
+        };
+
+        for (String name : names) {
+            SrmStudent student = new SrmStudent(name);
+            student.printConfirmation();
+        }
+    }
+}
