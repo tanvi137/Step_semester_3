@@ -1,4 +1,4 @@
-package week_1.class_problems;
+package week_1.practice_problems;
 
 public class ReverseCustomerName {
 
