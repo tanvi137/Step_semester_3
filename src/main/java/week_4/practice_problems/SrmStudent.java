@@ -1,4 +1,4 @@
-package week_4.class_problems;
+package week_4.practice_problems;
 
 public class SrmStudent {
 
