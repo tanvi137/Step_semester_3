@@ -1,4 +1,4 @@
-package week_3.class_problems;
+package week_3.practice_problems;
 
 public class MessWallet {
 
