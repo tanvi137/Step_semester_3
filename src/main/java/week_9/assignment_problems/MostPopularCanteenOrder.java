@@ -2,7 +2,6 @@ package week_9.assignment_problems;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Arrays;
 
 public class MostPopularCanteenOrder {
     public static String mostPopular(String[] orders) {
